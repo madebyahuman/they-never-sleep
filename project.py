@@ -80,14 +80,14 @@ click_points = {
     "TOKYO":   (1175, 1300),
     "KYOTO":   (720, 1400),
     "OSAKA":   (750, 1460),
-    "OKINAWA": (80, 1915),
+    "NAHA": (80, 1915),
     "FUKUOKA": (250, 1550),
     "SAPPORO": (1310, 340),
     "SENDAI":  (1275, 1010),
 }
 
 CITY_FILTERS = {
-    "5AM": ["TOKYO", "KYOTO", "OSAKA", "OKINAWA", "FUKUOKA"],
+    "5AM": ["TOKYO", "KYOTO", "OSAKA", "NAHA", "FUKUOKA"],
     "8PM": ["TOKYO", "SAPPORO", "SENDAI"]
 }
 
@@ -96,7 +96,7 @@ CITY_VIDEOS = {
     "TOKYO": {"day": "result/tokyo.mp4", "night": "result/tokyo2.mp4"},
     "KYOTO": "result/kyoto.mp4",
     "OSAKA": "result/osaka.mp4",
-    "OKINAWA": "result/okinawa.mp4",
+    "NAHA": "result/naha.mp4",
     "FUKUOKA": "result/fukuoka.mp4",
     "SAPPORO": "result/sapporo.mp4",
     "SENDAI": "result/sendai.mp4",
@@ -195,7 +195,6 @@ def draw_map_ui():
         ey2 = card_y + card_height - EXPLORE_MARGIN_BOTTOM
         ey1 = ey2 - EXPLORE_H
 
-    # References bouton taille 32 et décalé de 20px à gauche
     ref_x, ref_y = ref_button_coords
     ref_x -= 20
     tw, th = measure_text("References", 32)
