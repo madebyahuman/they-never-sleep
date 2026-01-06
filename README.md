@@ -70,17 +70,16 @@ The interface prioritizes **clarity, readability, and subtlety**, reflecting the
 
 <pre><code>
 they_never_sleep/
-├── project/
-│   ├── japan-map.png
-│   ├── references.png
-│   ├── cards/           
-│   │   └── city-card-time.png
-    ├── font/ 
-│   └── project.py
-│   ├── result/
-│   │   └── city.mp4
-│   ├── yolov8s.pt
-│   └── yolo.py
+├── japan-map.png
+├── references.png
+├── cards/
+│   └── city-card-time.png
+├── font/
+├── project.py
+├── result/
+│   └── city.mp4
+├── yolov8s.pt
+├── yolo.py
 └── README.md
 </code></pre>
 
